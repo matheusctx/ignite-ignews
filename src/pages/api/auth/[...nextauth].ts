@@ -16,6 +16,7 @@ export default NextAuth({
       },
     }),
   ],
+  secret: 'ignews',
   callbacks: {
     async session({ session }) {
       try {
